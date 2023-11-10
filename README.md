@@ -2,6 +2,10 @@
 
 This repository contains MATLAB/Octave scripts to perform rigorous coupled-wave analysis (RCWA) simulations for a SiO<sub>2</sub> layer decorated with micropillars.
 
+![optimization parameters of the array of micro-pillars](https://github.com/21grd03-parametric/sio2-micropillars/blob/main/micropattern_SIO2.png)
+
+The main script runs rigorous electromagnetic simulations for all wavelengths in the atmospheric transparency window (8-13 µm) for all combination of three main structural parameters (pillar diameter, spacing and height), within a user-defined range.
+
 Running the code requires the RETICOLO v9 RCWA code:
 > Jean-Paul Hugonin, & Philippe Lalanne. (2021). Light-in-complex-nanostructures/RETICOLO: V9. Zenodo. [https://doi.org/10.5281/zenodo.4419063](https://doi.org/10.5281/zenodo.4419063)
 
