@@ -1,10 +1,15 @@
 # Emissivity optimization for a micropatterned SiO<sub>2</sub> layer
 
-This repository contains MATLAB/Octave scripts to perform rigorous coupled-wave analysis (RCWA) simulations for a SiO<sub>2</sub> layer decorated with micropillars.
+Dataset related to the publication HMT_125004:
+> Zhenmin Ding, Xin Li, Hulin Zhang, Dukang Yan, Jérémy Werlé, Ying Song, Lorenzo Pattelli, Jiupeng Zhao, Hongbo Xu, Yao Li.
+> Robust radiative cooling via surface phonon coupling-enhanced emissivity from SiO<sub>2</sub> micropillar arrays.
+> *International Journal of Heat and Mass Transfer*, 125004 (2023). doi: [10.1016/j.ijheatmasstransfer.2023.125004](https://doi.org/10.1016/j.ijheatmasstransfer.2023.125004)
+
+The repository contains MATLAB/Octave scripts to perform rigorous coupled-wave analysis (RCWA) simulations for a SiO<sub>2</sub> layer decorated with micropillars.
 
 ![optimization parameters of the array of micro-pillars](micropattern_SIO2.png)
 
-The main script runs rigorous electromagnetic simulations for all wavelengths in the atmospheric transparency window (8-13 µm) for all combination of three main structural parameters (pillar diameter, spacing and height), within a user-defined range.
+The main script runs a series of rigorous electromagnetic simulations over the atmospheric transparency window wavelength range (8-13 µm) for all combination of three main structural parameters (pillar diameter, spacing and height), within a user-defined range.
 
 Running the code requires the RETICOLO v9 RCWA code:
 > Jean-Paul Hugonin, & Philippe Lalanne. (2021). Light-in-complex-nanostructures/RETICOLO: V9. Zenodo. [https://doi.org/10.5281/zenodo.4419063](https://doi.org/10.5281/zenodo.4419063)
