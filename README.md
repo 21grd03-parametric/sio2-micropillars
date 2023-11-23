@@ -1,4 +1,5 @@
 # Emissivity optimization for a micropatterned SiO<sub>2</sub> layer
+[![DOI](https://zenodo.org/badge/716331976.svg)](https://zenodo.org/doi/10.5281/zenodo.10202117)
 
 Dataset related to the publication HMT_125004:
 > Zhenmin Ding, Xin Li, Hulin Zhang, Dukang Yan, Jérémy Werlé, Ying Song, Lorenzo Pattelli, Jiupeng Zhao, Hongbo Xu, Yao Li.
